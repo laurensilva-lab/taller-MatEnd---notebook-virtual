@@ -1,0 +1,154 @@
+/* FONDO CUADRICULADO Y FUENTE PARA TODA LA PÁGINA */
+body {
+  background-color: #E0A4B0 !important; 
+  
+  background-image: 
+    linear-gradient(#e9bcc493 1px, transparent 1px), 
+    linear-gradient(90deg, #f1dcdf86 1px, transparent 1px); 
+  background-size: 20px 20px;
+  
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+
+}
+
+*, *::before, *::after {
+  font-family: "Chelsea Market", system-ui !important;
+}
+
+html, body, #root {
+  margin: 0 !important;
+  padding: 0 !important;
+  min-height: 100vh !important;
+  width: 100% !important;
+  
+}
+
+/* Tema1 */
+.divisor-cuaderno {
+  border-top: 1px solid rgba(224, 164, 176, 0.2) !important;
+  margin: 20px 0;
+  opacity: 1;
+}
+
+.contenedor-img-meme {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedor-img-meme img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: contain;
+}
+
+/* Tema2 */
+.divisor-cuaderno {
+  border-top: 1px solid rgba(224, 164, 176, 0.2) !important;
+  margin: 20px 0;
+  opacity: 1;
+}
+
+.contenedor-img-izq, .contenedor-img-der {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedor-img-izq img {
+  max-width: 70%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: contain;
+}
+
+.contenedor-img-der img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: contain;
+}
+.btn-kahoot-rosa {
+  background-color: #E0A4B0 !important;
+  border-color: #E0A4B0 !important;
+  color: #ffffff !important;
+  font-weight: bold;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.btn-kahoot-rosa:hover {
+  background-color: #d17a8c !important;
+  border-color: #d17a8c !important;
+}
+
+/* Tema3 */
+
+.post-it-rosa {
+  background-color: #ffccda !important;
+  border: none !important;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  min-height: 250px;
+  border-radius: 10px;
+}
+.tabla-estilo {
+  background-color: rgba(255, 255, 255, 0.685); 
+  border: 1px solid #333 !important;
+}
+.tabla-estilo th {
+  background-color: rgba(255, 255, 255, 0.6) !important;
+}
+
+.card, .list-group-item {
+  background-color: rgba(255, 255, 255, 0.37) !important; 
+
+}
+
+/* Navbar */
+.navbar {
+  display: flex !important;
+  flex-direction: row !important; 
+  justify-content: space-between !important; 
+  align-items: center !important;            
+  width: 100% !important;
+  max-width: none !important;                            
+  background: transparent !important; 
+  box-shadow: none !important;
+  background-color: rgba(245, 225, 225, 0.74) !important;
+}
+.navbar-nav {
+  display: flex !important;
+  flex-direction: row !important; 
+  gap: 20px !important;                      
+  align-items: center !important;
+}
+
+
+/* tema5 */
+.contenedor-img-paralela, .contenedor-img-pinterest {
+  width: 100%;
+  height: 100%;
+  min-height: 250px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 8px;
+  overflow: hidden;
+  padding: 10px;
+}
+
+
+.contenedor-img-paralela img, .contenedor-img-pinterest img {
+  max-width: 100%;
+  max-height: 350px; 
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  border-radius: 6px;
+}
+
